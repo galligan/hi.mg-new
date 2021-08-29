@@ -26,5 +26,8 @@
 		"postcss-cli": "^8.3.1",
 		"postcss-import": "^14.0.2",
 		"tailwindcss": "^2.2.6"
+	},
+	"dependencies": {
+		"nightwind": "^1.1.12"
 	}
 }

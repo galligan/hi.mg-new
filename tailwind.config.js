@@ -20,7 +20,7 @@ module.exports = {
 		},
 	},
 	variants: {},
-	plugins: [],
+	darkMode: 'media',
 	purge: process.env.NODE_ENV === 'production' ? {
 		enabled: true,
 		content: ['src/**/*.njk', 'src/**/*.js'],
