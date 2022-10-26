@@ -11,7 +11,7 @@
 		"build:11ty": "ELEVENTY_ENV=production eleventy",
 		"build:scripts": "esbuild src/_assets/scripts/app.js --bundle --minify --outfile=dist/static/app.min.js",
 		"start": "run-p dev:*",
-		"build": "run-s clean build:*"
+		"build": "npx @11ty/eleventy build --output public"
 	},
 	"author": "Chris Collins",
 	"license": "ISC",
